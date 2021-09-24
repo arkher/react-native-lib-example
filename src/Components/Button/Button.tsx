@@ -1,9 +1,9 @@
-import React from "react";
-import { BoxProps, TextProps } from "@shopify/restyle";
-import { ActivityIndicator, TouchableHighlight } from "react-native";
-import { Theme } from "../../theme";
-import Box from "../Box/Box";
-import Text from "../Text/Text";
+import React from 'react';
+import { BoxProps, TextProps } from '@shopify/restyle';
+import { ActivityIndicator, TouchableHighlight } from 'react-native';
+import { Theme } from '../../theme';
+import Box from '../Box/Box';
+import Text from '../Text/Text';
 
 type ButtonProps = {
   onPress: () => void;
@@ -40,5 +40,10 @@ const Button: React.FC<ButtonProps> = ({
     </Box>
   </TouchableHighlight>
 );
+
+Button.defaultProps = {
+  loading: false,
+  textProps: {}
+};
 
 export default Button;

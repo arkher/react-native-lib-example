@@ -16,6 +16,7 @@ const palette = {
 const theme = createTheme({
   colors: {
     primary: palette.purplePrimary,
+    secondary: palette.greenPrimary,
     ...palette
   },
   spacing: {
