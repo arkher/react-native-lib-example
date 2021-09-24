@@ -9,5 +9,5 @@ const stories = [];
 
 module.exports = {
   loadStories,
-  stories,
+  stories
 };
