@@ -4,15 +4,16 @@
 
 # Features
 
+- Expo
 - Typescript
 - Storybook web/mobile
 - Shopify/Restyle
 - Eslint/Prettier
 - Theme-based
+- Husky
 
 # Todo
 
-- [ ] husky - Githooks
 - [ ] Bob - Builder
 - [ ] PLOP - Micro-generator
 - [ ] Snapshot testing
